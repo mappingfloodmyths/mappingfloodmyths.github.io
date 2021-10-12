@@ -31,14 +31,27 @@
     <p>Map Placeholder</p>
 </div>
 
-<div class="menu-box">
+<div class="menu-box" id="menu">
     <div class="menu">
-        <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path id="myID" d=""/></svg>
+        <nav>
+            <div class="nav-left">
+                <a id="about" onclick="activelink(this.id)">About</a>
+                <a id="howtouse" onclick="activelink(this.id)">How to Use</a>
+                <a id="data" onclick="activelink(this.id)">Data</a>
+                <a id="sources" onclick="activelink(this.id)">Sources</a>
+                <a id="contact" onclick="activelink(this.id)">Contact</a>
+            </div>
+            <div class="back-btn">
+                <a onclick="backbtnclick()"><i class="fa fa-caret-down"></i> Back to Map</a>
+            </div>
+        </nav>
+        <div class="activetxt" id="activetxt">
+        </div>
     </div>
 </div>
 
-<footer>
-    <button class="menu-btn" onclick="btnclick()"><i class="fa fa-caret-up"></i></button>
+<footer onclick="menubtnclick()">
+    <button class="menu-btn"><i class="fa fa-caret-up"></i></button>
 </footer>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>

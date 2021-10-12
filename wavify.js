@@ -36,6 +36,7 @@ function wavify(wave_element, options) {
     lastUpdate,
     totalTime = 0,
     animationInstance = false,
+    // animationInstance = requestAnimationFrame(draw),
     tweenMaxInstance = false;
 
   //  Allow new settings, avoid setting new container for logic purpose please :)
@@ -130,7 +131,7 @@ function wavify(wave_element, options) {
         attr: {
           d: drawPath(drawPoints(factor))
         },
-        ease: Power1.easeInOut
+        // ease: Power1.easeIn
       });
     } else {
       lastUpdate = now;
@@ -168,7 +169,7 @@ function wavify(wave_element, options) {
       .height;
     lastUpdate = false;
     play();
-  }, 250);
+  }, 0);
 
   function boot() {
     if (!animationInstance) {
