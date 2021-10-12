@@ -90,8 +90,8 @@ function activelink(id) {
 
 function activetext(currentpage){
   // console.log(pagetext[currentpage])
-  d3.select(".activetxt")
-    .html(pagetext[currentpage])
-  // $("#activetxt").load("about.html");
+  // d3.select(".activetxt")
+  //   .html(pagetext[currentpage])
+  $("#activetxt").load(`/../pages/${currentpage}.html`)
 }
 
