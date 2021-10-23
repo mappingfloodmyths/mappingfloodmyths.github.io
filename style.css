@@ -141,7 +141,18 @@ footer p, header p{
     margin-top: 0;
 }
 
-svg{
+#map-container svg{
+    display:block;
+    margin: 0 auto;
+}
+
+img{
+    width:auto;
+    height: auto;
+    position: -1;
+}
+
+#menu svg{
     position: absolute;
     top: 0;
     left: 0;
