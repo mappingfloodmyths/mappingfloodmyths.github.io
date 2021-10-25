@@ -114,10 +114,6 @@ nav a:hover{
     color: #1C2833;
 }
 
-/* nav a.active{
-    color: #1C2833;
-} */
-
 .nav-left a{
     float: left;
 }
@@ -173,6 +169,10 @@ footer p, header p{
 
 .container p{
     margin-top: 0;
+}
+
+#map-container {
+    background-image: url("images/test.jpg")
 }
 
 #map-container svg{
