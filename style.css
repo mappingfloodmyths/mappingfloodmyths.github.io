@@ -33,6 +33,14 @@ body {
     overflow: hidden;
 }
 
+.tabletitle h2{
+    text-align: left;
+}
+
+table{
+    padding: 10px;
+}
+
 #menu{
     height: 0%;
 }
@@ -133,6 +141,7 @@ footer p, header p{
 }
 
 .container {
+    /* padding: 10px; */
     height: 85%;
     display: block;
 }
@@ -143,7 +152,9 @@ footer p, header p{
 
 #map-container svg{
     display:block;
-    margin: 0 auto;
+    margin: auto;
+    /* padding:10px; */
+    /* border: solid 1px; */
 }
 
 img{
