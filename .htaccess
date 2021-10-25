@@ -6,7 +6,7 @@ RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Check for file in diractory with .html extension
+# Check for file in directory with .html extension
 
 RewriteCond %(REQUEST_FILENAME)\.html -f
 
