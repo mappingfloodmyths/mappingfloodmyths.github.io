@@ -33,12 +33,35 @@ body {
     overflow: hidden;
 }
 
-.tabletitle h2{
-    text-align: left;
+#data-container{
+    overflow: auto;
 }
 
 table{
     padding: 10px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+th,td{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 10px;
+}
+
+th{
+    border: 1px solid grey;
+}
+
+td{
+    vertical-align: top;
+    text-align: left;
 }
 
 #menu{
@@ -83,6 +106,8 @@ nav a{
     margin-right:5px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
 
 nav a:hover{
