@@ -218,7 +218,8 @@ footer p, header p{
 }
 
 .popup_text h2 {
-    margin:5px;
+    margin:0px;
+    padding-top: 15px;
 }
 
 .poptable{
@@ -241,16 +242,17 @@ footer p, header p{
 }
 
 .popup-body{
-    height:94%;
+    height:90%;
     overflow:auto;
+    /* padding-bottom: 5px; */
 }
 
 .popup_text p{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: normal;
     margin:0px;
-    padding:5px;
-    padding-left: 10px;
+    padding:3px;
+    padding-left: 13px;
 }
 
 .popup-close{
