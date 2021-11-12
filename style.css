@@ -222,17 +222,9 @@ footer p, header p{
     padding-top: 15px;
 }
 
-.poptable{
-    color: red;
-}
-
-.poptable tr {
-    background-color: white;
-}
-
-.poptable th,td{
-    border: none;
-    padding: 10px;
+.originStory br {
+    display: block;
+    margin: 5px;
 }
 
 .popup-list {
