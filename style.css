@@ -71,6 +71,7 @@ td{
 }
 
 .menu-box{
+    /* display: none; */
     position: absolute;
     width:100%;
     bottom:0;
@@ -114,14 +115,40 @@ nav a:hover{
     float: left;
 }
 
-.back-btn a{
-    float: right;
+.activetxt {
+    position: absolute;
+    height: 0%;
+    bottom:0;
+    overflow: auto;
+    display: none;
+    opacity: 0;
+    margin-left:15px;
+    margin-right:10px;
+    /* width: inherit; */
 }
 
-.activetxt {
-    margin-left:5px;
-    margin-right:5px;
-    padding: 20px;
+.activetxt h2 {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.activetxt p {
+    margin:0px;
+}
+
+.activetxt a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.activetxt a:hover{
+    color:#1C2833;
+    cursor: pointer;
+}
+
+.back-btn a{
+    float: right;
 }
 
 footer {
@@ -135,7 +162,7 @@ footer {
 }
 
 .menu-btn{
-    position: absolute;
+    position: relative;
     border: none;
     outline: none;
     color: white;
@@ -143,8 +170,9 @@ footer {
     font-size: 25px;
     padding: 0px;
     font-family:inherit;
-    margin: 0px;
+    margin: 0 auto;
     cursor: pointer;
+    /* text-align: center; */
 }
 
 footer:hover{
