@@ -19,8 +19,22 @@ header h1{
     margin: auto;
     position: absolute;
     padding: 10px;
+    padding-top:5px;
+    text-align: center;
+    top:0px;
+    color: white;
+}
+
+header h2{
+    margin: auto;
+    position: absolute;
+    top:30px;
+    padding: 10px;
+    padding-left: 42px;
     text-align: center;
     color: white;
+    font-style: italic;
+    font-size: 20px;
 }
 
 body {
