@@ -7,7 +7,8 @@ html {
 }
  
 header {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background-color: #1C2833;
     width: auto;
@@ -35,6 +36,13 @@ header h2{
     color: white;
     font-style: italic;
     font-size: 20px;
+}
+
+.notices {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin: auto 10px auto 0px;
 }
 
 body {
