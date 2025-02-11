@@ -34,6 +34,10 @@ header {
     margin: auto 10px auto 0px;
 }
 
+.notices img {
+    cursor: pointer;
+}
+
 body {
     display: block;
     margin: 0px;
