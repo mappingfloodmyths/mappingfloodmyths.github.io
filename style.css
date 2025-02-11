@@ -8,39 +8,28 @@ html {
  
 header {
     display: flex;
-    flex-direction: column;
     text-align: center;
     background-color: #1C2833;
     width: auto;
     height: 10%;
     margin: 0px;
+    justify-content: space-between;
 }
 
-header h1{
-    margin: auto;
-    position: absolute;
-    padding: 10px;
-    padding-top:5px;
-    text-align: center;
-    top:0px;
-    color: white;
+.titles {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto 0px auto 10px;
 }
 
-header h2{
-    margin: auto;
-    position: absolute;
-    top:30px;
-    padding: 10px;
-    padding-left: 42px;
-    text-align: center;
+.titles h1, .titles h2{
+    margin: 0px;
     color: white;
-    font-style: italic;
-    font-size: 20px;
 }
 
 .notices {
     display: flex;
-    justify-content: flex-end;
     gap: 5px;
     margin: auto 10px auto 0px;
 }
