@@ -103,6 +103,10 @@ td{
     bottom:0;
 }
 
+iframe #notice-text, iframe a {
+    color:white;
+}
+
 nav {
     height: auto;
     border-bottom: solid white;
